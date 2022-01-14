@@ -1,0 +1,301 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+*{
+    font-family:  'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+/* list styling */
+ul{
+    list-style: none;
+}
+li{
+    text-decoration: none;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+/* Navbar*/
+.navbar{
+    margin-bottom: 30px;
+}
+.desktop-nav{
+    padding: 20px;
+    height: auto;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%),
+    0 2px 2px rgb(0 0 0 / 6%),
+    0 0 2px rgb(0 0 0 / 7%);
+}
+.navbar-brand img{
+    width: 108px;
+    height: 108px;
+}
+
+.navbar-brand{
+    width: 108px;
+    height: 108px;
+}
+
+.navbar-content{
+    max-width: 1180px;
+    margin: auto;
+    display: flex;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+}
+/* top navbar */
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.top-nav li{
+    margin: 0 10px;
+}
+
+
+.top-nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2 rem;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+
+
+.top-nav-left{
+    
+    margin-right: 30px;
+    padding-right: 10px;
+}
+
+.top-nav-right{
+    margin-left: 80px;
+}
+.top-nav-right .link span{
+    padding-right: 10px;
+}
+
+/* bottom navbar */
+.bottom-nav{
+    padding-top: 10px;
+    margin-left: 38px;
+}
+
+.bottom-nav li{
+    padding-right: 13px;
+}
+
+
+.location{
+    display: flex;
+
+}
+.location img{
+    width: 19px;
+    height: 19px;
+    
+}
+
+.grid-row{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 2 rem;
+}
+
+.links li{
+    margin-right: 15px;
+}
+
+/* text styling */
+.bold{
+    font-weight: 500;
+    font-size: large;
+}
+
+
+.txt-sm{
+    font-size: 14px;
+}
+
+.tx-md{
+    font-size: 18px;
+}
+.txt-nav-bottom{
+    font-size: 17px;
+}
+.txt-xl{
+    font-size: 35px;
+}
+
+.note{
+    font-size: 9px;
+    margin: 20px 0;
+}
+
+.b-note{
+    padding: 30px 0;
+}
+
+.py-md{
+    padding: 20px 0;
+}
+
+.box-text h2{
+    margin-top:50px;
+}
+
+/* Button */
+.btn{
+    background-color: #FFBC0D;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 15px;
+}
+
+
+/* search logo */
+px-l{
+    margin-left: 5px;
+    padding: 5px;
+}
+
+
+/* box container */
+.box-container{
+    max-width:1180px;
+    margin: auto;
+}
+
+.box{
+    margin-top: 60px;
+}
+/* box styling */
+.grid-col-2
+{
+    display: grid;
+    grid-template-columns:2fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* box image */
+.image{
+    max-width: 100%;
+    height: auto;
+}
+
+/* footer */
+.grid-col-5
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.footer-container
+{
+    padding-top: 70px;
+}
+
+.footer .main{
+    margin: 20px 0;
+}
+
+.options li{
+    padding: 5px 0;
+}
+
+.footer-social{
+    padding: 20px 0;
+}
+
+.divider{
+    height: 0.5px;
+    background-color: gray;
+}
+
+.footer-bottom{
+    display: grid;
+    grid-template-columns: 2.5fr 1.2fr;
+    margin-top: 20px;
+}
+
+.footer-bottom-left ul li{
+    display: flex;
+    float: left;
+    margin: 20px 20px;
+}
+
+.footer-logo{
+    height: 25px;
+    width: 25px;
+}
+.footer-bottom-right{
+    display: flex;
+    margin: 15px 0 0 0;
+}
+
+
+/* Social media logo */
+.logo{
+    display: grid;
+    margin: 30px 0;
+    grid-template-columns: 3fr 1fr;
+    gap: 2rem;
+}
+.logo .app
+{
+    display: flex;
+
+}
+.logo .footer-social img{
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    border: 1px solid grey;
+    border-radius: 50%;
+}
+
+.logo .app img{
+    width: 100%;
+    height: auto;
+}
+
+.facebook:hover{
+    background-color: #1877F2;
+}
+
+.youtube:hover{
+    background-color: #FF0000;
+}
+
+.twitter:hover{
+    background-color: #64b4e9;
+}
+
+.tumblr:hover{
+    background-color: #434554;
+}
+
+.spotify:hover{
+    background-color: #1ED760;
+}
+
+.instagram:hover{
+    background-color: #D53474;
+}
